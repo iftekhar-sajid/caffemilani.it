@@ -12,7 +12,7 @@
 font-size: 52.3823px; 
 font-family: century-old-style-std, serif; 
 font-weight: 400; 
-text-align: center; 
+/* text-align: center;  */
 line-height: 1.3; 
 color: #FFFFFF; 
 }
@@ -21,7 +21,7 @@ color: #FFFFFF;
     font-size: 50.1953px; 
 font-family: century-old-style-std, serif; 
 font-weight: 400; 
-text-align: center; 
+/* text-align: center;  */
 line-height: 1.3; 
 color: #FFFFFF; 
 }
@@ -39,21 +39,10 @@ letter-spacing: 0.7px;
     font-size: 35.2367px; 
 font-family: owners, sans-serif; 
 font-weight: 400; 
-text-align: center; 
+/* text-align: center;  */
 line-height: 1.3; 
 color: #F2EDE9; 
 letter-spacing: 0.7px;
-}
-
-.H4Tx_w{
-ont-size: 24.3573px; 
-font-family: owners, sans-serif; 
-font-weight: 400; 
-text-align: center; 
-line-height: 1.4; 
-color: #FFFFFF; 
-letter-spacing: 0.365359px; 
-
 }
 
 .H3Tx_c {
@@ -65,8 +54,22 @@ color: #503629;
 letter-spacing: 0.475127px; 
 
 }
-.H6Tx_c {
-   font-size: 15px; 
+
+
+.H4Tx_w{
+ont-size: 24.3573px; 
+font-family: owners, sans-serif; 
+font-weight: 400; 
+/* text-align: center;  */
+line-height: 1.4; 
+color: #FFFFFF; 
+letter-spacing: 0.365359px; 
+
+}
+
+.H5Tx_c {
+   /* font-size: 15px;  */
+   font-size: .8rem;
 font-family: owners, sans-serif; 
 font-weight: 400; 
 text-align: center; 
@@ -86,7 +89,7 @@ PTxbig_c{
     font-size: 36.5633px; 
 font-family: owners, sans-serif; 
 font-weight: 400; 
-text-align: center; 
+/* text-align: center;  */
 line-height: 1.3; 
 color: #503629; 
 letter-spacing: 0.7px; 
@@ -95,7 +98,7 @@ PTxmid_c {
     ont-size:  24px; 
 font-family: owners, sans-serif; 
 font-weight: 400; 
-text-align: center; 
+/* text-align: center;  */
 line-height: 1.4; 
 color: #503629; 
 letter-spacing: 0.7px; 
@@ -105,7 +108,7 @@ letter-spacing: 0.7px;
     font-size: 16px; 
 font-family: owners, sans-serif; 
 font-weight: 400; 
-text-align: center; 
+/* text-align: center;  */
 line-height: 1.5; 
 color: #503629; 
 letter-spacing: 0.7px;
@@ -115,7 +118,7 @@ letter-spacing: 0.7px;
     font-size: 16px; 
 font-family: owners, sans-serif; 
 font-weight: 400; 
-text-align: center; 
+/* text-align: center;  */
 line-height: 1.5; 
 color: #FFFFFF; 
 letter-spacing: 0.7px;
@@ -136,7 +139,7 @@ letter-spacing: 0.7px;
     font-size: 16px; 
 font-family: owners, sans-serif; 
 font-weight: 700; 
-text-align: center; 
+/* text-align: center;  */
 line-height: 1.5; 
 color: #503629; 
 letter-spacing: 0.7px;
@@ -147,7 +150,7 @@ letter-spacing: 0.7px;
     font-size: 16px;  
 font-family: owners, sans-serif;  
 font-weight: 700;  
-text-align: center;  
+/* text-align: center;   */
 line-height: 1.5;  
 color: #F2EDE9;  
 letter-spacing: 0.7px;  
@@ -159,7 +162,7 @@ BtnTx_c{
 font-size: 14px; 
 font-family: owners, sans-serif; 
 font-weight: 400; 
-text-align: center; 
+/* text-align: center;  */
 color: #503629; 
 letter-spacing: 0.7px; 
     
@@ -169,7 +172,7 @@ BtnTx_w{
 font-size: 14px; 
 font-family: owners, sans-serif; 
 font-weight: 400; 
-text-align: center; 
+/* text-align: center;  */
 color: #FFFFFF; 
 letter-spacing: 0.7px;
 
@@ -179,7 +182,7 @@ BtnTx_b{
 font-size: 14px; 
 font-family: owners, sans-serif; 
 font-weight: 400; 
-text-align: center; 
+/* text-align: center;  */
 color: #080912; 
 letter-spacing: 0.7px;
 
@@ -189,7 +192,7 @@ BtnTx_WH{
 ont-size: 14px; 
 font-family:Helvetica; 
 font-weight: 400; 
-text-align: center; 
+/* text-align: center;  */
 color: #FFFFFF; 
 letter-spacing: 0.7px; 
 line-height: 15px; 
@@ -219,3 +222,10 @@ line-height: 15px;
     align-items: center;
     justify-items: center;
 }                 
+
+.F_jb_c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+} 
