@@ -10,42 +10,221 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./input.css" />
   <link href="./output.css" rel="stylesheet">
 </head>
+
 <!-- body section -->
-<body>
+<body class="body bg-[#F2EDE9]">
   <!-- body section -->
-   <div class="subhding ">
-    <h5 class="H5Tx_c ">
+   <div class="subhding bg-[#FFFFFF] py-4 ">
+    <h5 class="H5Tx_c F_al_c">
  The new shop is online: 10% off every purchase
     </h5>
   </div>
-<header class="header bg[#F2EDE9] F_jb_c">
+
+    <!-- header section -->
+<header class="header  F_jb_c memuTx pt-8 px-5 pb-35">
 <div class="logo "> 
-<img class="w" src="https://caffemilani.it/cdn/shop/files/Pittogramma_-_CaffeMilani.svg?v=1767875306&width=80" alt="">
+<img class="w-12 h-12" src="https://caffemilani.it/cdn/shop/files/Pittogramma_-_CaffeMilani.svg?v=1767875306&width=80" alt="">
 </div>
-
-
-Caffé Milani World
-Esposizione
-Professionals
-Magazine
-Contacts
-<nav class="nav">
-  <ul>
-    <li><a href=""></a>Products</li>
+              <!-- nav section -->
+<nav class="nav hidden lg:block ">
+  <ul class="nav_ul  gap-5 lg:flex">
+    <li class="nav_li"><a class="nav_a" href="">Products</a></li>
+    <li class="nav_li"><a class="nav_a" href="">Caffé Milani World</a></li>
+    <li class="nav_li"><a class="nav_a" href="">Esposizione</a></li>
+    <li class="nav_li"><a class="nav_a" href="">Professionals</a></li>
+    <li class="nav_li"><a class="nav_a" href="">Magazine</a></li>
+    <li class="nav_li"><a class="nav_a" href="">Contacts</a></li>
   </ul>
 
 
 </nav>
 
-<nav class="sideNav ">
-
+<nav class="sideNav flex F_jb_c gap-5">
+  <div>
+    <button class="lang_btn border-r-1 p-2 hidden lg:block">
+      <select class=" bg-[#F2EDE9] border-none " name="" id=""> 
+        <option class=" " value="">English</option>
+        <option value="">Italiano</option>
+      </select>
+    </button>
+  </div>
+  <ul class="sideNav_ul flex gap-3">
+    <li class="man hidden lg:block"> <a href=""> </a><svg aria-hidden="true" focusable="false" width="16" fill="none" class="icon icon-account" style="--icon-mobile-max-width: 16px; --icon-max-width: 20px" part="icon" viewBox="0 0 16 16">
+        <path stroke-width="1" stroke="currentColor" d="M15.418 15A8.003 8.003 0 0 0 .581 15"></path>
+        <circle stroke-width="1" cx="8" cy="4.5" r="3" stroke="currentColor"></circle>
+      </svg></li>
+    <li class="search "> <a href=""><svg aria-hidden="true" focusable="false" width="16" fill="none" class="icon icon-search" style="--icon-mobile-max-width: 16px; --icon-max-width: 20px" part="icon" viewBox="0 0 16 16">
+        <path stroke-width="1" stroke="currentColor" d="M1.333 7.333a6 6 0 1 0 12 0 6 6 0 0 0-12 0ZM11.575 11.576l3.09 3.09"></path>
+      </svg> </a></li>
+    <li class="Cart "> <a href=""> <svg aria-hidden="true" focusable="false" width="16" fill="none" class="icon icon-cart" style="--icon-mobile-max-width: 16px; --icon-max-width: 20px" part="icon" viewBox="0 0 16 16">
+            <path stroke-width="1" stroke="currentColor" d="m1.5 14.5 1-12h11l1 12h-13Z"></path>
+            <path stroke-width="1" stroke="currentColor" d="M5.5 5c.238.833 1.071 2.5 2.5 2.5s2.262-1.667 2.5-2.5"></path>
+          </svg></a></li>
+    <li class="hamg block lg:hidden"> <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+</svg>
+ </a></li>
+  </ul>
 </nav>
 </header>
+         <!-- header & nav end -->
+
+<!-- badge -->
+<div class=" badge"> 
+<img class="p-1 bg-white rounded-[8px] badge fixed right-0 bottom-25 z-99" src="./assets/keyhole.svg" alt="">
+</div>
+                    <!-- main section   -->
+<main>
+        <!-- banner section -->
+<section class="banner relative">
+  <div class="  z-100 absolute top-[-22%] right-[41.5%]">
+    <img class="h-[220px] w-[220px]" src="./assets/Logo_-_CaffeMilani.svg" alt="">
+  </div>
+
+  <div class="bnr relative">
+    <div class="bg-[#503629] absolute z-90 h-full w-full opacity-50"> </div>
+<div class="bnr_phn overflow-hidden h-[80vh] w-screen lg:hidden">
+<img class=" w-full h-full object-center object-cover" src="./assets/bannerR.jpg" alt="">
+  </div>
+  <div class="bnr_pc hidden lg:grid lg:grid-cols-2 lg:grid-rows-1  lg:overflow-hidden lg:h-[80vh]  ">
+    <div ><img class=" w-full h-full object-center object-cover " src="./assets/bannerL.jpg" alt=""></div>
+    <div><img class=" w-full h-full object-center object-cover " src="./assets/bannerR.jpg" alt=""></div>
+  </div>
+  <div class="absolute z-90 text-center f_col top-[30%] right-[15%]  ">
+<span class="PTxsm_w"> Since 1937</span>
+<h1 class="h1mainTx"> Excellent coffee, every day.</h1>
+<p class="PTxsm_w">From the shores of Lake Como, a wide selection of fine coffees, capable of conquering even the most refined palates.</p>
+<a class="BtnTx_c px-2 py-1 rounded-3xl bg-white mt-5" href=""> Buy now</a>
+</div>
+  </div>
+</section>
+       <!-- Taste Profiler -->
+<section class="Taste f_col py-6 gap-3">
+<div>
+  <img class="h-40 w-40" src="./assets/taste.svg" alt="">
+</div>
+<strong class="strongTx_c "> Taste Profiler</strong>
+<p class="PTxmid_c flex-wrap w-[77%] text-center ">Not sure which blend to choose? Find the perfect one for you with a few simple questions.</p>
+<a class="BtnTx_w bg-[#503629] px-12 py-3 rounded-4xl" href="">Take the test</a>
+</section>
+
+            <!-- Bestsellers -->
+
+<section class="Bestsellers PTxmid_c pl-10 ">
+<h3 class="py-7"> <span class="bg-[#503629] px-1 rounded-[100%] mr-1.5 "></span>  Bestsellers </h3>
 
 
 
+<div class="cardholdr  F_al_c  " >
+
+
+<div class="card border-[.5px] border-[#E2DBD6]"> 
+  <a class="">
+    <div class="relative">
+<span class="absolute top-6 left-20 bg-white p-0.5"> kit</span>
+<img src="./assets/imgi_3_Caffe_Milani_Capsule_Kit_Degustazione.png" alt="">
+    </div>
+<p class="f_col">  Tasting kit <span>€41,10</span></p>
+</a>
+</div>
+
+ 
+
+<div class="card border-[.5px] border-[#E2DBD6]"> 
+  <a class="">
+    <div class="relative">
+<span class="absolute top-6 left-20 bg-white p-0.5"> kit</span>
+<img src="./assets/imgi_4_Caffe_Milani_Capsule_12_Gran_Espresso.png " alt="">
+    </div>
+<p class="f_col">  Gran Espresso <span>€7,50</span></p>
+</a>
+</div>
+
+ <!-- <div>
+
+<div class="card border-[.5px] border-[#E2DBD6]"> 
+  <a class="">
+    <div class="relative">
+<span class="absolute top-6 left-20 bg-white p-0.5"> kit</span>
+<img src="./assets/imgi_3_Caffe_Milani_Capsule_Kit_Degustazione.png" alt="">
+    </div>
+<p class="f_col">  Tasting kit <span>€41,10</span></p>
+</a>
+</div>
+
+ 
+
+<div class="card border-[.5px] border-[#E2DBD6]"> 
+  <a class="">
+    <div class="relative">
+<span class="absolute top-6 left-20 bg-white p-0.5"> kit</span>
+<img src="./assets/imgi_3_Caffe_Milani_Capsule_Kit_Degustazione.png" alt="">
+    </div>
+<p class="f_col">  Tasting kit <span>€41,10</span></p>
+</a>
+</div>
+
+ 
+
+<div class="card border-[.5px] border-[#E2DBD6]"> 
+  <a class="">
+    <div class="relative">
+<span class="absolute top-6 left-20 bg-white p-0.5"> kit</span>
+<img src="./assets/imgi_3_Caffe_Milani_Capsule_Kit_Degustazione.png" alt="">
+    </div>
+<p class="f_col">  Tasting kit <span>€41,10</span></p>
+</a>
+</div>
+
+ 
+
+<div class="card border-[.5px] border-[#E2DBD6]"> 
+  <a class="">
+    <div class="relative">
+<span class="absolute top-6 left-20 bg-white p-0.5"> kit</span>
+<img src="./assets/imgi_3_Caffe_Milani_Capsule_Kit_Degustazione.png" alt="">
+    </div>
+<p class="f_col">  Tasting kit <span>€41,10</span></p>
+</a>
+</div>
+
+ 
+
+<div class="card border-[.5px] border-[#E2DBD6]"> 
+  <a class="">
+    <div class="relative">
+<span class="absolute top-6 left-20 bg-white p-0.5"> kit</span>
+<img src="./assets/imgi_3_Caffe_Milani_Capsule_Kit_Degustazione.png" alt="">
+    </div>
+<p class="f_col">  Tasting kit <span>€41,10</span></p>
+</a>
+</div> 
+</div>-->
+</div>
+ </section>
+
+        <!-- Special Edition -->
+
+<section class="Special py-10 grid grid-cols-2 gap-0.5 lg:flex" >
+<div class="col-span-2"> <img src="./assets/imgi_18_Caffe_Milani_Macinato_Grani_Collezione_Privata_Serena_Confalonieri_5.jpg" alt=""> </div>
+<div><img src="./assets/imgi_19_Caffe_Milani_Macinato_Collezione_Privata_Serena_Confalonieri.jpg" alt=""></div>
+<div><img src="./assets/imgi_19_Caffe_Milani_Macinato_Collezione_Privata_Serena_Confalonieri.jpg" alt=""></div>
+
+</section>
+
+
+
+
+
+
+   
+</main>
+
+<footer>
+
+</footer>
 </body>
 </html>
