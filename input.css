@@ -244,6 +244,7 @@ background-image:url(./assets/bannerR.jpg);
     justify-items: center;
 } 
 
+<<<<<<< HEAD
 .F_je_c{
     display: flex;
     justify-content: space-evenly;
@@ -260,4 +261,6 @@ background-image:url(./assets/bannerR.jpg);
     justify-items: center;
 }
 
+=======
+>>>>>>> f5d1efa7087d09b8995ee0fc3f44b7f1981f8c4d
 
